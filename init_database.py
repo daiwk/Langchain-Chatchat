@@ -1,3 +1,4 @@
+#encoding=utf8
 import sys
 sys.path.append(".")
 from server.knowledge_base.migrate import (create_tables, reset_tables, import_from_db,
